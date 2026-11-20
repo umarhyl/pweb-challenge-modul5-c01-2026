@@ -1,10 +1,10 @@
-# Challenge Modul 5 — React dan Integrasi REST API
+# Challenge Modul 5: React dan Integrasi REST API
 
 Proyek ini merupakan pengerjaan Challenge Modul 5 Praktikum Pemrograman Website 2026 menggunakan Vite, React, dan TypeScript. Aplikasi terdiri dari dua tahap: papan catatan lokal dan integrasi full-stack dengan REST API Modul 4.
 
 ## Pemenuhan Soal
 
-### Tahap 1 — Aplikasi Papan Catatan Lokal
+### Tahap 1: Aplikasi Papan Catatan Lokal
 
 | Ketentuan | Implementasi |
 | --- | --- |
@@ -14,7 +14,7 @@ Proyek ini merupakan pengerjaan Challenge Modul 5 Praktikum Pemrograman Website 
 | Pencarian berdasarkan judul menggunakan `.filter()` | `src/components/Tahap1Notes.tsx` |
 | Data tetap tersimpan setelah refresh | `src/hooks/useLocalStorage.ts` menggunakan `localStorage` dan `useEffect` |
 
-### Tahap 2 — Integrasi REST API Modul 4
+### Tahap 2: Integrasi REST API Modul 4
 
 | Ketentuan | Implementasi |
 | --- | --- |
