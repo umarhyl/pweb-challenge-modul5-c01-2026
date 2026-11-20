@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Tahap1Notes } from "./components/Tahap1Notes";
+import { Tahap2Posts } from "./components/Tahap2Posts";
 import "./App.css";
 
 export default function App() {
@@ -35,21 +36,7 @@ export default function App() {
         {activeTab === "tahap1" ? (
           <Tahap1Notes />
         ) : (
-          <div className="tahap2-placeholder">
-            <h2>Tahap 2: Hubungkan ke REST API Modul 4</h2>
-            <p>
-              Halaman ini disiapkan untuk integrasi endpoint <code>/api/posts</code> (Express + Neon).
-            </p>
-            <div className="placeholder-info">
-              <h4>Fitur yang akan dijalankan pada Tahap 2:</h4>
-              <ul>
-                <li>Mengambil data (GET /api/posts) dengan status Loading & Error.</li>
-                <li>Menambah data baru (POST /api/posts) tanpa reload halaman.</li>
-                <li>Menghapus data (DELETE /api/posts/:id) dengan instant state update.</li>
-                <li>Fitur filter pencarian via query <code>?search=...</code> ke backend.</li>
-              </ul>
-            </div>
-          </div>
+          <Tahap2Posts />
         )}
       </main>
 
