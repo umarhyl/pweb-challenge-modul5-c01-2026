@@ -2,6 +2,7 @@
   "name": "pweb-challenge-modul5-c01-2026",
   "private": true,
   "version": "0.0.0",
+  "description": "Challenge Modul 5: papan catatan React dan integrasi REST API Modul 4",
   "type": "module",
   "scripts": {
     "dev": "vite",
